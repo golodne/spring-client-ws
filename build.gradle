@@ -80,7 +80,7 @@ test {
 
 // tag::bootjar[]
 bootJar {
-	baseName = 'gs-consuming-web-service'
+	baseName = 'spring-client-ws'
 	version =  '0.0.1'
 }
 // end::bootjar[]

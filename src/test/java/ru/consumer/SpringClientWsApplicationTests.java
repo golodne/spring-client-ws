@@ -1,4 +1,4 @@
-package ru.consumer.springclientws;
+package ru.consumer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
