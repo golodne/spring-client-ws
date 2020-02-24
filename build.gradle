@@ -60,7 +60,7 @@ task genJaxb {
 dependencies {
 // tag::dependency[]
 	implementation ('org.springframework.boot:spring-boot-starter-web-services') {
-		exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+		//exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
 	}
 	implementation 'org.springframework.ws:spring-ws-core'
 	// For Java 11:
